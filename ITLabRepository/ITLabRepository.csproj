@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ITLabTest.Model\ITLabTest.Model.csproj" />
+    <ProjectReference Include="..\ITLabTest.Repository\ITLabTest.Repository.csproj" />
+    <ProjectReference Include="..\ITLabTest.SqlServer.EFCore\ITLabTest.SqlServer.EFCore.csproj" />
+  </ItemGroup>
+
+</Project>
